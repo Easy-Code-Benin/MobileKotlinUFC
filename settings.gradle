@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MobileKotlinUFCSample"
 include ':app'
+include ':MobileKotlinUFC'
