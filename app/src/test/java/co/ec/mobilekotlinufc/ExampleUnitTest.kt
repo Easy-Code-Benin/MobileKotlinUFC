@@ -1,4 +1,4 @@
-package co.ec.mobilekotlinufcsample
+package co.ec.mobilekotlinufc
 
 import org.junit.Test
 
