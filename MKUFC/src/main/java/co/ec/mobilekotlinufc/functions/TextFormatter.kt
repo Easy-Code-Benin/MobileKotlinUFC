@@ -27,7 +27,7 @@ fun String.hour(separator: String= ":"): String {
 
 /**
  * .[currency], @TextFormatter
- * return "Mount Fcfa"
+ * return "Mount [currency]"
  */
 @Override
 fun String.currency(currency: String = "Fcfa"): String {
