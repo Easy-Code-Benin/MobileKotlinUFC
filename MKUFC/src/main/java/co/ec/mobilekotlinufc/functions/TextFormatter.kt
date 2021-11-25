@@ -32,4 +32,5 @@ fun String.hour(separator: String= ":"): String {
 @Override
 fun String.currency(currency: String = "Fcfa"): String {
     return "$this $currency"
+
 }
