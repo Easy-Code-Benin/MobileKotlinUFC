@@ -34,3 +34,21 @@ fun String.currency(currency: String = "Fcfa"): String {
     return "$this $currency"
 
 }
+
+/**
+ * .[profileLabel], @TextFormatter
+ * function to build default profile picture
+ * return "XX"
+ */
+@Override
+fun String.profileLabel(): String {
+    val lString: List<String> = this.split(" ")
+    return if(lString.size >= 2){
+        lString[0].substring(0,1)+lString[1].substring(0,1)
+    } else {
+        if(lString[0].length >= 2)
+            this.substring(0,2)
+        else
+            this.substring(0,1)
+    }
+}
